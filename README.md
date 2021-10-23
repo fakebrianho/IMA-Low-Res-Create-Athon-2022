@@ -1,5 +1,5 @@
-# IMA-Low-Res-Create-Athon
+# IMA-Low-Res-Create-Athon 2021
 
-[Spin the wheels!](https://ellennickles.github.io/IMA-Low-Res-Create-Athon/)
+[Spin the wheels!]()
 
-Modified from [ICMadness](https://github.com/ITPNYU/ICMadness-2018)
+Modified from [Ellen Nickles code](https://ellennickles.github.io/IMA-Low-Res-Create-Athon/)
