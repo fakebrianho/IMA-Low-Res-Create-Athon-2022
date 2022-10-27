@@ -1,6 +1,6 @@
 @font-face {
-	src: url('font/BildVariableV3-VF.woff2') format('woff2-variations'),
-		url('font/BildVariableV3-VF.woff') format('woff');
+	src: url('fonts/BildVariableV3-VF.woff2') format('woff2-variations'),
+		url('fonts/BildVariableV3-VF.woff') format('woff');
 	font-family: 'Bild Variable V3 Web';
 	font-weight: 700 900;
 	font-style: normal;
@@ -14,14 +14,6 @@ body {
 	height: 100%;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
-	font-family: 'Bild Variable V3 Web';
-	font-weight: 700;
-	hyphens: true;
-	font-synthesis: none;
-	margin: 0;
-	text-transform: uppercase;
-	font-variation-settings: 'wdth' 100;
-	letter-spacing: 3px;
 }
 
 section {
@@ -35,9 +27,13 @@ section {
 	background-position: right top, left 50vh, left 25vh, 0 0;
 }
 
+div {
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Bild Variable V3 Web';
-	font-size: 80px;
+	font-size: 120px;
 	font-weight: 900;
 	hyphens: true;
 	font-synthesis: none;
@@ -49,7 +45,7 @@ h1 {
 
 h2 {
 	font-family: 'Bild Variable V3 Web';
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: 700;
 	hyphens: true;
 	font-synthesis: none;
@@ -57,40 +53,8 @@ h2 {
 	text-transform: uppercase;
 	font-variation-settings: 'wdth' 100;
 }
-
-footer {
-	position: fixed;
-	bottom: 4vh;
-	width: 100vw;
-	text-align: center;
-}
-
-.fakeHeader {
-	position: fixed;
-	top: 35px;
-	left: 0;
-	overflow: hidden;
-	width: 100%;
-	font-size: 16px;
-	font-weight: 800;
-	z-index: 0;
-}
-
-.fakeHeader h1,
-.fakeHeader h2 {
-	display: flex;
-}
-
-h1 span,
-h2 span {
-	width: 350px;
-	display: inline-block;
-	flex: 0 0 auto;
-	/* opacity: 0; */
-}
-
-h2 span {
-	width: 200px;
+#center-container {
+	margin-top: 80px;
 }
 
 p {
@@ -149,21 +113,14 @@ p {
 
 button {
 	background: #fa82be;
+	/* background: #96c8dc; */
 	cursor: pointer;
 	box-shadow: 1px 1px 2px 1px rgb(148, 79, 79);
 	color: white;
 	border-width: 0px;
 	border-radius: 0.5rem;
 	padding: 0.8% 10% 0.8% 10%;
-	font-size: 1.8rem;
-	font-weight: 200;
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Bild Variable V3 Web';
-	font-weight: 700;
-	hyphens: true;
-	font-synthesis: none;
-	margin: 0;
-	text-transform: uppercase;
-	font-variation-settings: 'wdth' 100;
-	letter-spacing: 9px;
+	font-size: 1.6rem;
+	font-weight: 400;
+	font-style: italic;
 }

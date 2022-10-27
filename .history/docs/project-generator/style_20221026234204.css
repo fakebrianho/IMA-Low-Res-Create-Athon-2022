@@ -14,14 +14,6 @@ body {
 	height: 100%;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
-	font-family: 'Bild Variable V3 Web';
-	font-weight: 700;
-	hyphens: true;
-	font-synthesis: none;
-	margin: 0;
-	text-transform: uppercase;
-	font-variation-settings: 'wdth' 100;
-	letter-spacing: 3px;
 }
 
 section {
@@ -33,6 +25,10 @@ section {
 	background-repeat: no-repeat, no-repeat, no-repeat, repeat;
 	background-size: auto 70vh, auto 50vh, 100vw 120vh, 800px auto;
 	background-position: right top, left 50vh, left 25vh, 0 0;
+}
+
+div {
+	text-align: center;
 }
 
 h1 {
@@ -58,16 +54,15 @@ h2 {
 	font-variation-settings: 'wdth' 100;
 }
 
-footer {
+#center-container {
+	margin-top: 80px;
 	position: fixed;
-	bottom: 4vh;
 	width: 100vw;
-	text-align: center;
 }
 
 .fakeHeader {
 	position: fixed;
-	top: 35px;
+	top: 25px;
 	left: 0;
 	overflow: hidden;
 	width: 100%;
@@ -149,21 +144,14 @@ p {
 
 button {
 	background: #fa82be;
+	/* background: #96c8dc; */
 	cursor: pointer;
 	box-shadow: 1px 1px 2px 1px rgb(148, 79, 79);
 	color: white;
 	border-width: 0px;
 	border-radius: 0.5rem;
 	padding: 0.8% 10% 0.8% 10%;
-	font-size: 1.8rem;
-	font-weight: 200;
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Bild Variable V3 Web';
-	font-weight: 700;
-	hyphens: true;
-	font-synthesis: none;
-	margin: 0;
-	text-transform: uppercase;
-	font-variation-settings: 'wdth' 100;
-	letter-spacing: 9px;
+	font-size: 1.6rem;
+	font-weight: 400;
+	font-style: italic;
 }
