@@ -1,0 +1,182 @@
+@font-face {
+	src: url('font/BildVariableV3-VF.woff2') format('woff2-variations'),
+		url('font/BildVariableV3-VF.woff') format('woff');
+	font-family: 'Bild Variable V3 Web';
+	font-weight: 700 900;
+	font-style: normal;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bild Variable V3 Web';
+	font-weight: 700;
+	hyphens: true;
+	font-synthesis: none;
+	margin: 0;
+	text-transform: uppercase;
+	font-variation-settings: 'wdth' 100;
+	letter-spacing: 3px;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('image/bg.png');
+	background: url(image/bg_border-top.png), url(image/bg_border-bottom.png),
+		url(image/bg.png), url(image/bg_texture.png), #aafa50;
+	background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+	/* background-size: auto 70vh, auto 50vh, 100vw 120vh, 800px auto; */
+	/* background-position: right top, left 50vh, left 25vh, 0 0; */
+	background-size: 100% 100%;
+}
+
+h1 {
+	font-family: 'Bild Variable V3 Web';
+	font-size: 80px;
+	font-weight: 900;
+	hyphens: true;
+	font-synthesis: none;
+	text-transform: uppercase;
+	text-shadow: -7px -3px #ffffff;
+	margin: 0;
+	font-variation-settings: 'wdth' 100;
+}
+#canvas-container {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+h2 {
+	font-family: 'Bild Variable V3 Web';
+	font-size: 40px;
+	font-weight: 700;
+	hyphens: true;
+	font-synthesis: none;
+	margin: 0;
+	text-transform: uppercase;
+	font-variation-settings: 'wdth' 100;
+}
+
+footer {
+	position: fixed;
+	bottom: 4vh;
+	width: 100vw;
+	text-align: center;
+}
+
+.fakeHeader {
+	position: fixed;
+	top: 35px;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 800;
+	z-index: 0;
+}
+
+.fakeHeader h1,
+.fakeHeader h2 {
+	display: flex;
+}
+
+h1 span,
+h2 span {
+	width: 350px;
+	display: inline-block;
+	flex: 0 0 auto;
+	/* opacity: 0; */
+}
+
+h2 span {
+	width: 200px;
+}
+
+p {
+	position: relative;
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+#wheel-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 15%;
+	overflow: hidden;
+}
+
+.prompt {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	padding: 2%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.changing-segment {
+	box-shadow: 1px 1px 1.5px 1px #777 inset;
+	border-radius: 5%;
+	border-style: groove;
+	border-color: gray;
+	border-width: 1px;
+	position: relative;
+	overflow: none;
+	background-color: #fff;
+	color: black;
+	height: 17rem;
+	padding: 1rem 0 0.5rem 0;
+	font-size: 1.2rem;
+	line-height: 1.55rem;
+}
+
+#inputs,
+#outputs {
+	padding: 5%;
+}
+
+.prompt-label {
+	color: #594042;
+	margin-top: 0.3rem;
+	font-size: 1.6rem;
+}
+
+#button-container {
+	position: fixed;
+	width: 100vw;
+	bottom: 0;
+	transform: translate(0, -50%);
+	text-align: center;
+	z-index: 30;
+}
+
+button {
+	background: #fa82be;
+	cursor: pointer;
+	box-shadow: 1px 1px 2px 1px rgb(148, 79, 79);
+	color: white;
+	border-width: 0px;
+	border-radius: 0.5rem;
+	padding: 0.8% 10% 0.8% 10%;
+	font-size: 1.8rem;
+	font-weight: 200;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bild Variable V3 Web';
+	font-weight: 700;
+	hyphens: true;
+	font-synthesis: none;
+	margin: 0;
+	text-transform: uppercase;
+	font-variation-settings: 'wdth' 100;
+	letter-spacing: 9px;
+	z-index: 30;
+}
